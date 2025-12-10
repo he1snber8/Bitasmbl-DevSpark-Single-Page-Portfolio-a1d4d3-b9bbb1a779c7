@@ -1,0 +1,1 @@
+export default function Button({ children, type = \"button\" }) {\n  return (\n    <button\n      type={type}\n      className=\"inline-flex items-center justify-center rounded-md bg-emerald-500 px-4 py-2 text-sm font-medium text-slate-950 hover:bg-emerald-400 transition-colors\"\n    >\n      {children}\n    </button>\n  );\n}\n// use in Hero + Contact
