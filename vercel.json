@@ -1,0 +1,1 @@
+{\n  \"version\": 2,\n  \"builds\": [\n    { \"src\": \"package.json\", \"use\": \"@vercel/static-build\" }\n  ],\n  \"routes\": [\n    { \"src\": "/(.*)", \"dest\": "/index.html" }\n  ]\n}\n// run: npm run build then connect repo to Vercel
