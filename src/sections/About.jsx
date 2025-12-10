@@ -1,0 +1,1 @@
+export default function About() {\n  return (\n    <section id=\"about\" className=\"py-16 space-y-4\">\n      <h2 className=\"text-2xl font-semibold\">About</h2>\n      <p className=\"text-slate-300\">{/* short bio focused on learning & projects */}</p>\n      <ul className=\"flex flex-wrap gap-2 text-sm\">{/* map skills into badges */}</ul>\n    </section>\n  );\n}
