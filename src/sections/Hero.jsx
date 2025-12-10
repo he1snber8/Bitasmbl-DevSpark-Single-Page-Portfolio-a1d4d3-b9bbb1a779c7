@@ -1,0 +1,1 @@
+export default function Hero() {\n  return (\n    <section id=\"hero\" className=\"py-16 flex flex-col gap-4\">\n      <h1 className=\"text-3xl sm:text-5xl font-bold\">Junior Developer Portfolio</h1>\n      <p className=\"text-slate-300 max-w-md\">{/* brief intro text */}</p>\n      {/* add CTA button linking to projects or contact */}\n    </section>\n  );\n}
