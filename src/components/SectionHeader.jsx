@@ -1,0 +1,1 @@
+export default function SectionHeader({ children }) {\n  return (\n    <h2 className=\"text-2xl font-semibold mb-4 inline-flex items-center gap-2\">\n      <span className=\"h-px w-6 bg-emerald-500\" />\n      <span>{children}</span>\n    </h2>\n  );\n}\n// replace plain h2s with <SectionHeader>
