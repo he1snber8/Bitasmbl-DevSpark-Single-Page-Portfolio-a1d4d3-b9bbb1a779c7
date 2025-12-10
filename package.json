@@ -1,0 +1,1 @@
+{\n  \"name\": \"junior-portfolio\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"^18.x\",\n    \"react-dom\": \"^18.x\",\n    \"tailwindcss\": \"^3.x\"\n  }\n}\n// run: npm install && npx tailwindcss init -p
